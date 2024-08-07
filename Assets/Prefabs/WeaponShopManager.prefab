@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8484187869534304713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920713684669196200}
+  - component: {fileID: 7154101941287620382}
+  m_Layer: 0
+  m_Name: WeaponShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1920713684669196200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8484187869534304713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 350.06696, y: 127.80757, z: 2.202903}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7154101941287620382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8484187869534304713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62884f9e5bd854f4ea9b12ebced8a74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponButtonPrefab: {fileID: 8950866377714245521, guid: c2f4c02f4ff8f4bd88dabd64b6c4b560, type: 3}
+  weaponDashboard: {fileID: 0}
+  weapons:
+  - {fileID: 11400000, guid: 661d448da1b7c41a09985ad11a69a032, type: 2}
+  - {fileID: 11400000, guid: 057ca14b813bc49c08d99c1a7c5bca3b, type: 2}
+  - {fileID: 11400000, guid: 14108df0acbf44c5ca9d19a810341efc, type: 2}
+  - {fileID: 11400000, guid: 81c861af27bfb4a7da3792db471c5dd3, type: 2}
+  - {fileID: 11400000, guid: f8d74ee885abc4d75b95f16de18460dd, type: 2}
+  - {fileID: 11400000, guid: 5ab8e7f72e6b14165a5e93ccfed8995b, type: 2}

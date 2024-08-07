@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb470af70196d49cba3e539a0fa63f1c, type: 3}
+  m_Name: Finish_100_waves
+  m_EditorClassIdentifier: 
+  ID: Waves100
+  Title: Diamond Defender
+  MoveToNext: 100
+  GoldPrize: 100
+  Sprite: {fileID: 366693353, guid: 550c5be6e85e94cee91ffa89f4d7bdb8, type: 3}
